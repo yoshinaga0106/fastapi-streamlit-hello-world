@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "sample-app"
+version = "0.1.0"
+description = ""
+authors = ["Takahiro Yoshinaga <t.yoshinaga0106@gmail.com>"]
+readme = "README.md"
+packages = [{include = "sample_app"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
